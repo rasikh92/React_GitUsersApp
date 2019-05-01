@@ -1,0 +1,13 @@
+.List {
+    width: 31%;
+    height: 30px;
+    background-color: #CAD3C8;
+    margin: 1% 0 0 28%;
+    border-radius: 20px;
+    list-style-type: none;
+    padding: 4px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    box-shadow: 1px 1px 1px black;
+}

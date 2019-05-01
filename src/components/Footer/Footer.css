@@ -1,0 +1,31 @@
+
+.Footer {
+    height: 150px;
+    background-color: black;
+    margin-top: 25%;
+    background-color: #182C61;
+    line-height: 150px;
+    position: relative;
+}
+
+.footer-text {
+    position: absolute;
+    font-family: cursive;
+    font-size: 30px;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+}
+
+.img {
+    position: absolute;
+    height: 50px;
+    vertical-align: bottom;
+    margin-left: 95%;
+    margin-top: 7%;
+}
+
+.img:hover {
+    cursor: pointer;
+}

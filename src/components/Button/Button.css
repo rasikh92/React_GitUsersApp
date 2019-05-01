@@ -5,11 +5,12 @@
     background: linear-gradient(#2d3436, #636e72);
     color: #b2bec3;
     margin: 1%;
-    
+    box-shadow: 1px 1px 1px black;
   }
   
-  .button:hover {
-    background-color: white;
+  .button:hover,
+  .button:active {
+    background: linear-gradient(#f7f1e3,#aaa69d);
     color: gray;
     cursor: pointer;
   }
