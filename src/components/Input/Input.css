@@ -1,0 +1,12 @@
+.input {
+    width: 30%;
+    height: 30px;
+    margin: 3% 30%;
+    background: linear-gradient(#f7f1e3,#aaa69d);
+    border: 0.5px solid gray;
+    border-radius: 20px;
+    font: inherit;
+    color: gray;
+    font-size: 20px;
+    padding: 6px 10px;
+  }
