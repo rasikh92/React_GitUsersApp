@@ -40,16 +40,15 @@ a {
     border: 1px solid #ccc;
     box-shadow: 1px 1px 1px black;
     margin: 2% 2% 2% 2%;
-    position: relative;
     display:inline-block;
+    text-align: center;
 }
 
-.frame-img {
-    position: absolute;
+img {
     display: block;
-    z-index: 1; 
-    top: 15px; 
-    right: 5px; 
-    height: 80%;
+    margin: auto;
+    width: 100%;
+    height: auto; 
+    border-radius: 50%;
 }
 

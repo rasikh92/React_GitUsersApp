@@ -6,7 +6,7 @@ const Footer = props => (
     <div className="Footer">
         <label className="footer-text">{props.label}</label>
             <a href="https://github.com/rasikh92/React_GitUsersApp"
-                target="_blank">
+                target="blank">
             <img className="img" src={Img} alt="Github Link">
             </img></a>
     </div>

@@ -1,7 +1,7 @@
 .List {
     width: 31%;
     height: 30px;
-    background-color: #CAD3C8;
+    background-color: #FEA47F;
     margin: 1% 0 0 28%;
     border-radius: 20px;
     list-style-type: none;
@@ -10,4 +10,8 @@
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     box-shadow: 1px 1px 1px black;
+}
+
+.List:hover {
+    cursor: pointer;
 }
