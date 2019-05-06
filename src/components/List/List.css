@@ -2,7 +2,7 @@
     width: 31%;
     height: 30px;
     background-color: #FEA47F;
-    margin: 1% 0 0 28%;
+    margin: 1% 1% 0 28%;
     border-radius: 20px;
     list-style-type: none;
     padding: 4px;
@@ -10,8 +10,19 @@
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     box-shadow: 1px 1px 1px black;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    display: block;
 }
 
 .List:hover {
     cursor: pointer;
+}
+
+@media(max-width: 500px) {
+    .List {
+        width: 50%;
+        margin-left: 15%;
+        font-size: 15px;
+    }
 }

@@ -1,31 +1,39 @@
-
 .Footer {
     height: 150px;
-    background-color: black;
-    margin-top: 25%;
     background-color: #182C61;
-    line-height: 150px;
-    position: relative;
+    margin: 50% 0 0 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
 }
 
 .footer-text {
-    position: absolute;
     font-family: cursive;
     font-size: 30px;
-    vertical-align: middle;
-    text-align: center;
-    width: 100%;
+    display: flex;
+    padding: 20px;
+    flex-flow: column;
     font-weight: bold;
 }
 
 .img {
-    position: absolute;
     height: 50px;
-    vertical-align: bottom;
-    margin-left: 95%;
-    margin-top: 7%;
+    width: 50px;
+    display: flex;
+    flex-flow: column;
+    margin: auto;
 }
 
 .img:hover {
     cursor: pointer;
+}
+
+@media(max-width: 500px) {
+    .Footer {
+        height: 100px;
+        margin: 85% 0 0 0;
+    }
+    .img {
+        display: none;
+    }
 }

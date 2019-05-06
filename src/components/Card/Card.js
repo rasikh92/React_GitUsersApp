@@ -10,8 +10,8 @@ const Card = props =>
                         </img>
                     </div>
                     <label className="title">{result.login}</label>
-                    <label className="card-text">Link: 
-                    <a href={result.url}>{result.url}</a></label>
+                    <label className="card-text">Link:  
+                    <a href={result.url} className={"over"}>{result.url}</a></label>
                     <label className="card-score-text">Score: {result.score}</label>
             </div>
             ))
