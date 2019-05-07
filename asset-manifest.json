@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/React_GitUsersApp/static/css/main.c52aae07.chunk.css",
+    "main.js": "/React_GitUsersApp/static/js/main.11052153.chunk.js",
+    "main.js.map": "/React_GitUsersApp/static/js/main.11052153.chunk.js.map",
+    "runtime~main.js": "/React_GitUsersApp/static/js/runtime~main.230f791b.js",
+    "runtime~main.js.map": "/React_GitUsersApp/static/js/runtime~main.230f791b.js.map",
+    "static/js/2.6f64500a.chunk.js": "/React_GitUsersApp/static/js/2.6f64500a.chunk.js",
+    "static/js/2.6f64500a.chunk.js.map": "/React_GitUsersApp/static/js/2.6f64500a.chunk.js.map",
+    "index.html": "/React_GitUsersApp/index.html",
+    "precache-manifest.ed64ce67c5990e617cbc502e5d3e5eed.js": "/React_GitUsersApp/precache-manifest.ed64ce67c5990e617cbc502e5d3e5eed.js",
+    "service-worker.js": "/React_GitUsersApp/service-worker.js",
+    "static/css/main.c52aae07.chunk.css.map": "/React_GitUsersApp/static/css/main.c52aae07.chunk.css.map",
+    "static/media/Octocat.png": "/React_GitUsersApp/static/media/Octocat.14f7c70e.png"
+  }
+}
