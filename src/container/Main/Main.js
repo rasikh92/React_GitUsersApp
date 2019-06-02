@@ -24,24 +24,28 @@ class Main extends Component {
     }
     
     fetchData = (url) => {
-        axios.get(url).then(
+        fetch(url).then(
+            res => {
+                return res.json();
+            }
+        ).then( 
             res => {
                 const results = [];
-                for(let item in res.data.items) {
+                for(let item in res.items) {
                     results.push({
-                        avatar_url: res.data.items[item].avatar_url,
-                        id: res.data.items[item].id,
-                        login: res.data.items[item].login,
-                        score: res.data.items[item].score,
-                        url: res.data.items[item].url,
-                        total_count: res.data.items[item].total_count
+                        avatar_url: res.items[item].avatar_url,
+                        id: res.items[item].id,
+                        login: res.items[item].login,
+                        score: res.items[item].score,
+                        url: res.items[item].url,
+                        total_count: res.items[item].total_count
                     })
                 }
                 this.setState({results: results, quickresult: true, result: false});  
             }
         ).catch(
             err => {
-                this.setState({error: err.response.data.message});
+                this.setState({error: err.response.message});
             }
         )
     }
@@ -53,7 +57,7 @@ class Main extends Component {
         let url = 'https://api.github.com/search/users?q=';
         
         url = url.concat(event.target.value);
-        
+
         if(event.target.value !== "" || !this.state.quickresult) {
             this.setState({text: event.target.value});
             this.run(url);
@@ -69,7 +73,6 @@ class Main extends Component {
     }
 
     render () {
-
         const input = <Input onChange = {this.onChangeHandler}/>
         let result, spinner = null;
         if(result = null) {
