@@ -1,6 +1,5 @@
 import React, {Component, Fragment} from 'react';
 import _ from 'lodash';
-import axios from 'axios';
 import Jumbotron from '../../components/Jumbotron/Jumbotron';
 import Input from '../../components/Input/Input';
 import Button from '../../components/Button/Button';

@@ -4,7 +4,6 @@
   "private": true,
   "homepage": "https://rasikh92.github.io/React_GitUsersApp",
   "dependencies": {
-    "axios": "^0.18.0",
     "classnames": "^2.2.6",
     "gh-pages": "^2.0.1",
     "lodash.chunk": "^4.2.0",
